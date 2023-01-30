@@ -5,6 +5,23 @@ import styles from '@/styles/Home.module.css'
 
 
 export default function Home() {
+
+  const anime_object=[
+    {
+      id:1,
+      title: "mov 1",
+      rating:4/10,
+      genre:"comedy"
+    },
+    {
+      id:1,
+      title: "mov 1",
+      rating:4/10,
+      genre:"comedy"
+    }
+  ]
+
+
   return (
     <>
       <Head>
@@ -14,6 +31,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main className={styles.main}>
+        
        <h2>anime project</h2>
       </main>
     </>
